@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     description: 'Full Stack Developer • Creative Technologist • Digital Creator',
     type: 'website',
   },
+  icons: {
+    icon: '/assets/ts-logo.png',
+    apple: '/assets/ts-logo.png',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Tanmay Srivastav',

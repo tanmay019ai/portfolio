@@ -99,8 +99,8 @@ export default function About() {
             >
               <p style={{ fontSize: 'clamp(14px, 3.5vw, 17px)', lineHeight: 1.8, color: 'var(--text-secondary)' }}>
                 I&apos;m <strong style={{ color: 'var(--white)' }}>Tanmay Srivastav</strong> — a full-stack developer,
-                AI enthusiast, and creative technologist based in <strong style={{ color: 'var(--white)' }}>Ghaziabad, India</strong>.
-                I work at the intersection of technology, design, and real-world problem solving.
+                AI enthusiast, and creative technologist originally from <strong style={{ color: 'var(--white)' }}>Basti, Uttar Pradesh</strong>,
+                currently pursuing <strong style={{ color: 'var(--white)' }}>B.Tech in CSE (AI & ML) at Galgotias University, Greater Noida</strong>.
               </p>
               <p style={{ fontSize: 'clamp(14px, 3.5vw, 17px)', lineHeight: 1.8, color: 'var(--text-secondary)' }}>
                 From engineering scalable backends at Twwios Technologies, to building
@@ -124,16 +124,16 @@ export default function About() {
               className="grid grid-cols-2 gap-6"
             >
               {[
-                { label: 'Location', value: 'Ghaziabad, India 🇮🇳' },
+                { label: 'Location', value: 'Basti, Uttar Pradesh 🇮🇳' },
+                { label: 'Education', value: 'Galgotias Univ (B.Tech CSE AI/ML)' },
                 { label: 'Phone', value: '+91 84710 48881' },
-                { label: 'Focus', value: 'Web + AI + Design' },
                 { label: 'Email', value: 'tanmaysr019@gmail.com' },
               ].map((item) => (
                 <div key={item.label}>
                   <div style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '4px' }}>
                     {item.label}
                   </div>
-                  <div style={{ fontSize: '15px', fontWeight: 500, color: 'var(--text-primary)' }}>
+                  <div style={{ fontSize: '14px', fontWeight: 500, color: 'var(--text-primary)' }}>
                     {item.value}
                   </div>
                 </div>

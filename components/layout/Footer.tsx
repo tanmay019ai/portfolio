@@ -23,7 +23,7 @@ export default function Footer() {
             Building Digital Experiences Beyond Gravity
           </p>
           <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '4px' }}>
-            Ghaziabad, India 🇮🇳
+            Basti, Uttar Pradesh, India 🇮🇳
           </p>
           <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '2px' }}>
             +91 84710 48881

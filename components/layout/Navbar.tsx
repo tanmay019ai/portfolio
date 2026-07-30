@@ -49,11 +49,14 @@ export default function Navbar() {
         >
           {/* Logo */}
           <motion.div
-            whileHover={{ scale: 1.03 }}
-            className="font-space font-bold cursor-none"
+            whileHover={{ scale: 1.05 }}
+            className="flex items-center gap-2.5 font-space font-bold cursor-none"
             style={{ fontSize: '17px', letterSpacing: '-0.02em', color: 'var(--white)' }}
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
+            <div className="w-8 h-8 rounded-lg overflow-hidden border border-white/20 shadow-sm flex items-center justify-center bg-black/40">
+              <img src="/assets/ts-logo.png" alt="TS Logo" className="w-full h-full object-cover" />
+            </div>
             TS<span style={{ color: 'var(--accent)' }}>.</span>
           </motion.div>
 
